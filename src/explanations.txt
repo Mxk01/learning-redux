@@ -1,0 +1,3 @@
+npm i redux react-redux
+
+action creator -> action -> dispatch -> reducer -> state
