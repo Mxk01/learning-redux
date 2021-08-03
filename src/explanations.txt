@@ -1,3 +1,19 @@
 npm i redux react-redux
 
 action creator -> action -> dispatch -> reducer -> state
+
+
+1.Create action types 
+
+E.g  export let actionTypes = {DELETE_USER:"DELETE_USER"}
+
+2.Create the actions / functions that will return actions 
+
+// import action types E.g DELETE_USER
+export function test(someInfo) { // some info in this case could be user
+  return 
+  {
+    type:DELETE_USER,
+    payload:someInfo
+  }
+}
