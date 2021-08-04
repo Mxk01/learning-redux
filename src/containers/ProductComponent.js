@@ -10,7 +10,10 @@ function ProductComponent() {
     let {title,id} = products[0];
     return (
         <div className="four column wide">
+                        <br />
+
             <h1>Product Component</h1>
+            <br />
             <div className="ui link cards">
                 <div className="card">
                     <div className="page">

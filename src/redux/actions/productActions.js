@@ -1,5 +1,5 @@
 // importing actions
-import {ActionTypes} from '../constants/productActions'
+import {ActionTypes} from '../constants/action-types'
 
 let {
     SET_PRODUCTS,
