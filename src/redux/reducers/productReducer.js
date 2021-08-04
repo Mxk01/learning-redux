@@ -1,6 +1,6 @@
 import {ActionTypes} from '../constants/action-types'
 
-// declare initial state
+// declare initial state (III)
 const initialState = {
     products:[{
         id:1,
@@ -9,7 +9,7 @@ const initialState = {
     }]
 };
  // reducer function takes in a state and an action
-export const productReducer = (state,{type,payload}) => {
+export const productReducer = (state=initialState,{type,payload}) => {
  switch(type) 
  {
      // based on what type of action it is return something

@@ -1,4 +1,4 @@
-// In this object we have all the action
+// (I) In this object we have all the action
 // types like what sort of action we want to perform
 // will be defined by this
 export const ActionTypes ={

@@ -8,7 +8,7 @@ let {
 } = ActionTypes;
 
 
-//action = object that has action type and payload
+//  (II) action = object that has action type and payload
 // E.G COOK_FOOD
 // payload:ingredients 
 
